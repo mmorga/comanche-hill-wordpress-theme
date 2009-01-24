@@ -1,0 +1,409 @@
+/*
+Theme Name: Comanche Hill
+Theme URI: http://markmorga.com/
+Description: Comanche Hill theme
+Version: 0.1
+Author: Mark Morga
+Date: December 2006
+Based on Barecity by Shahee Ilyas
+Modified & completely redesigned by Mark Morga || http://markmorga.com
+
+
+*/
+a {
+	text-decoration: none; 
+	color: #09c;
+
+}
+
+a:active {
+	text-decoration: none;
+	color: #2251ff;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #ff4000;
+}
+
+a:hover {
+	text-decoration: none; 
+	color: #09c;
+        background-color: #f3eedd;
+}
+
+a img {
+	border: none;
+}
+
+
+acronym, abbr {
+
+}
+
+acronym, abbr, span.caps {
+	font-size: 95%;
+
+}
+
+acronym, abbr {
+	cursor: help;
+	border:none;
+}
+
+blockquote {
+	border-left: 5px solid #ccc;
+	margin-left: 1.5em;
+	padding-left: 5px;
+}
+
+body {
+	color:#333;
+	background-color:white;
+	font-family:  Verdana, Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	font-size: .75em;
+}
+
+cite {
+	font-size: 95%;
+	font-style: normal;
+	color:#666;
+}
+
+h2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin: 15px 0 2px 0;
+	font-size:95%;
+	padding-bottom: 2px;
+}
+
+h3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:95%;
+	margin-top: 0;
+}
+
+ol#comments li p {
+	font-size: 100%;	
+}
+
+#commentlist li{
+	margin-left:-22px;
+}
+
+p, li, .feedback {
+	font: 95% Verdana, Arial, Helvetica, sans-serif;
+	
+}
+
+/* classes used by the_meta() */
+ul.post-meta {
+	list-style: none;
+}
+
+ul.post-meta span.post-meta-key {
+	font-weight: bold;
+}
+
+.credit {
+	clear:both;
+	color: #666;
+	font-size: .8em;
+	padding: 50px 0 0 0;
+	padding-top:50px;
+	text-align: left;
+}
+
+.credit a:link, .credit a:hover {
+	color: #666;
+}
+
+.feedback {
+	color: #666;
+	text-align: right;
+	font-size:.8em;
+	clear: both;
+}
+
+.meta {
+	font-size: .75em;
+}
+
+.meta li, ul.post-meta li {
+	display: inline;
+}
+
+.meta ul {
+	display: inline;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+#comments{
+
+	padding-top:18px;
+
+}
+
+.commentby {
+	padding-bottom:8px;
+}
+
+#postcomment{
+	margin-top:24px;
+
+}
+
+.meta, .meta a {
+	color: #808080;
+	font-weight: normal;
+	letter-spacing: 0;
+}
+
+.storytitle {
+	margin: 0;
+}
+
+.storytitle a {
+	text-decoration: none;
+}
+
+.storycontent a {
+	text-decoration: none;
+	border-bottom: 1px dotted #888;
+}
+
+.storycontent a:hover {
+	text-decoration: none;
+	border-bottom: 1px dashed #888;
+}
+
+.storycontent {
+	margin-bottom:-10px;
+}
+.post {
+	margin-bottom:18px;
+}
+
+
+#commentform #author, #commentform #email, #commentform #url, #commentform textarea {
+	background: #fff;
+	border: 1px solid #333;
+	padding: .2em;
+}
+
+#commentform textarea {
+	width: 100%;
+}
+
+#commentlist li ul {
+	font-size: 100%;
+	list-style-type: none;
+	color: #666;
+}
+
+
+
+
+#content {
+	float: left;
+	width:500px;
+}
+
+
+
+#header {
+	margin:0px 0px 10px 0px;
+	padding:17px 0px 0px 10px;
+	/* For IE5/Win's benefit height = [correct height] + [top padding] + [top and bottom border widths] */
+	height:100px; /* 14px + 17px + 2px = 33px */
+	border-style:solid;
+	border-color:#53412d;/*black;*/
+	border-width:1px 0px; /* top and bottom borders: 1px; left and right borders: 0px */
+	line-height:11px;
+	background-color:#f5f0d4;  
+	font-size: 2.8em;
+}
+
+#headwrap {
+	padding-top:1em;
+	padding-bottom:1.3em;
+	margin-top:2em;
+	margin-bottom:4em;
+}
+
+
+#header a {
+	color: black;
+	text-decoration: none;
+}
+
+#header a:hover {
+	text-decoration: none;
+}
+
+#sidebar {
+	background:#f5f0d4;
+	border-left: 1px dotted #110;
+	padding: 0px 0 10px 20px;
+	float: right;
+	width: 12em;
+}
+
+#sidebar form {
+	margin: 0 0 0 0px;
+}
+
+#sidebar input#s {
+	width: 60%;
+	background: #eee;
+	border: 1px solid #999;
+	color: #000;
+	
+}
+
+#sidebar ul {
+	color: #5c1b1b;
+	list-style-type: none;
+	margin: 0;
+	padding-left: 3px;
+	text-transform: lowercase;
+}
+
+#sidebar h2 {
+	font-weight: normal;
+	margin:0;
+	padding:0;
+}
+
+#sidebar ul li {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin-top: 10px;
+	padding-bottom: 2px;
+}
+
+#sidebar ul ul {
+	font-variant: normal;
+	font-weight: normal;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+
+#sidebar ul ul li {
+	border: 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	letter-spacing: 0;
+	margin-top: 0;
+	padding: 0;
+	padding-left: 3px;
+}
+
+#sidebar ul ul li a {
+	color: #09c;
+	text-decoration: none;
+}
+
+#sidebar ul ul li a:hover {
+	border-bottom: 1px solid #809080;
+}
+
+#sidebar ul ul ul.children {
+	font-size: 142%;
+	padding-left: 4px;
+}
+
+#wp-calendar {
+	empty-cells: show;
+	font-size: 11px;
+	margin: 0;
+	width: 90%;	
+}
+
+#wp-calendar #next a {
+	padding-right: 10px;
+	text-align: right;
+}
+
+#wp-calendar #prev a {
+	padding-left: 10px;
+	text-align: left;
+}
+
+#wp-calendar a {
+	display: block;
+	text-decoration: none;
+}
+
+#wp-calendar a:hover {
+	background: #ccc;
+	color: #333;
+}
+
+#wp-calendar caption {
+	color: #000;
+	text-align: left;
+	font-weight: normal;
+
+}
+
+#wp-calendar td {
+	color: #999;
+	padding: 2px 0;
+	text-align: center;
+}
+
+#wp-calendar td.pad:hover {
+	background: #fff;
+}
+
+#wp-calendar td:hover, #wp-calendar #today {
+	background: #eee;
+	color: #666;
+}
+
+#wp-calendar th {
+	font-weight: normal;
+	text-transform: capitalize;
+	color: #999;
+		
+}
+
+#rap {
+	background-color: #FFFFFF;
+	margin-right:auto;
+	margin-left:70px;
+	width:700px;
+	padding: 6px;
+}
+
+#desc {
+	float:left;
+	font-size: .95em;
+	margin-top:0.2em;	
+}
+#desc a:link, #desc a:visited  {
+	display: inline;
+	padding: 0px 0em 0em 0em;
+	background-color: #fff;
+	color: #666;
+	text-decoration: none;
+}
+#desc a:hover {
+	background-color: #eee;
+	color: #666;
+}
+#desc a:active {
+	background-color: #fff;
+}
+#himage {
+	border:0;
+	margin:0;
+	padding:0 0 0 8px;
+}
+
